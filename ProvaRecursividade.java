@@ -28,7 +28,7 @@ public class ProvaRecursividade{
             
         }
 
-            return n + tribonacci(n-1);
+            return tribonacci(n-1) + tribonacci(n-2);
 
     }
 
@@ -40,7 +40,7 @@ public class ProvaRecursividade{
             return 1;
         }
         
-        return 2*m + pell(m - 1);
+        return 2*pell(m - 1) + pell(m - 1);
     }
 
    
@@ -59,7 +59,7 @@ public class ProvaRecursividade{
 
 
         // int n = 5;
-        //System.out.println(tribonacci(n));
+        // System.out.println(tribonacci(n));
 
 
 
