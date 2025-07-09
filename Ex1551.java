@@ -1,38 +1,42 @@
-import java.util.Scanner;
+// Não foi terminado!!
 
-public class Ex1551 {
+
+
+// import java.util.Scanner;
+
+// public class Ex1551 {
     
-     public static Scanner scanner =  new Scanner(System.in);
+//      public static Scanner scanner =  new Scanner(System.in);
 
-    public static int lerInt(){
-        int valor = scanner.nextInt();
-        return valor;
-    }
+//     public static int lerInt(){
+//         int valor = scanner.nextInt();
+//         return valor;
+//     }
 
-    public static String leString(){
-        String string = scanner.nextLine();
-        return string;
-    }
+//     public static String lerString(){
+//         String string = scanner.nextLine();
+//         return string;
+//     }
 
-    public static String ehPalvraCompleta(String palavra){
+//     public static String ehPalvraCompleta(String palavra){
 
-        String
-    }
+//         String
+//     }
 
-    public static void main(String[] args) {
+//     public static void main(String[] args) {
 
-        String palavra = leString();
+//         String palavra = lerString();
 
-        int testes = lerInt();
+//         int testes = lerInt();
 
-        for (int i = 0; i < testes; i++) {
+//         for (int i = 0; i < testes; i++) {
 
-            String palavra = leString();
+//             String palavra = lerString();
 
 
             
-        }
+//         }
 
         
-    }
-}
+//     }
+// }

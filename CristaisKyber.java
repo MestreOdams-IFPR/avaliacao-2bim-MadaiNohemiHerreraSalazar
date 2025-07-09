@@ -91,6 +91,8 @@ public class CristaisKyber {
         return v;
        }
 
+       
+
     public static int pesquisaBiNum(int[] v, int x) {
 
         return pesquisaNum(v, 0, v.length - 1, x);
