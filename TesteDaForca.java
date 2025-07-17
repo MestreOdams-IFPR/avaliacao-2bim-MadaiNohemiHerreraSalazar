@@ -23,35 +23,34 @@ public class TesteDaForca {
 
     }
 
-    public static void swap(int[] v, int i, int p){
+    public static void swap(int[] v, int i, int p) {
 
         int temp = v[i];
         v[i] = v[p];
         v[p] = temp;
 
-
     }
 
-   public static int[] selection(int[] v){
+    public static int[] selection(int[] v) {
 
-    int tam = v.length;
-    for(int i = 0; i< tam; i++){
-        int p = i;
-        for(int j = i+1; j < tam; j++){
-            if(v[j] < v[p]){
-                p = j;
+        int tam = v.length;
+        for (int i = 0; i < tam; i++) {
+            int p = i;
+            for (int j = i + 1; j < tam; j++) {
+                if (v[j] < v[p]) {
+                    p = j;
+                }
+
             }
 
+            if (p != i) {
+                swap(v, i, p);
+            }
         }
 
-        if(p != i){
-            swap(v, i, p);
-        }
+        return v;
     }
 
-    return v;
-   }
- 
     public static int somaMelhores(int[] posicoes, int qntEscolhidos) {
 
         int soma = 0;

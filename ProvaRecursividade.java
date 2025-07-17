@@ -23,7 +23,7 @@ public class ProvaRecursividade {
         } else if (n == 2) {
             return 1;
         } else {
-            return tribonacci(n - 1) + tribonacci(n - 2);
+            return tribonacci(n - 1) + tribonacci(n - 2); // + tribonacci(n - 3)
         }
 
     }
@@ -45,7 +45,8 @@ public class ProvaRecursividade {
 
         // Esse codigo está utilizando um metodo recursivo para para verter a ordem de
         // um vetor!!
-        // Por exemplo, se o vetor original era: v = {1, 2, 3}, agora sería: v = {3, 2, 1}
+        // Por exemplo, se o vetor original era: v = {1, 2, 3}, agora sería: v = {3, 2,
+        // 1}
         // Já que ele faz um swap e logo na chamada recursiva: metodoRec02(v, e+ 1, d
         // -1);
         // ele pega os dois proximos numeros que seram trocados, tudo isso até que todos
